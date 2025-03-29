@@ -1,0 +1,89 @@
+.subscribe-container{
+    max-width: 100%;    
+    background-color: #FFF5E8;
+    border-radius: 10px;
+    margin-right: 200px;
+    width: 400px;
+    height: 400px;
+    text-shadow:None;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers horizontally */
+    text-align: center; /* Ensures text is centered */
+
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.40);
+}
+
+.subscribe-title{
+    color: #4D000A;
+    font-family: ApparatExtrabold;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.subscribe-caption{
+    color: #AB4F2E;
+    font-size: 17px;
+    font-family: ApparatRegular;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; /* Adjust the width as needed */
+    
+  }
+  
+  .subscribe-input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px; /* Adjust the width as needed */
+    display: flex;           /* Enable flexbox */
+    justify-content: center;
+    align-items: center;     
+    font-size: 16px;
+    border: 2px solid #AB4F2E;
+    border-radius: 8px;
+    color: rgba(171, 79, 46, 0.45);
+    background-color: #FFF5E8;
+    font-family: ApparatRegular;
+  } 
+
+  .subscribe-input:focus {
+    border-color: rgba(171, 79, 46, 0.45); /* same as your normal state */
+    outline: none; /* removes the default focus outline */
+  }
+
+  .subscribe-input::placeholder {
+    color: rgba(171, 79, 46, 0.45);
+    font-family: ApparatRegular;
+}
+    
+  .subscribe-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 300px; /* Adjust the width as needed */
+    background-color: #4D000A;
+    color: white;
+    border: 2px solid #AB4F2E;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #F6BA59;
+    color: #4D000A;
+  }
+  
+  .subscribe-success {
+    font-size: 18px;
+    color: #F6BA59;
+    text-align: center;
+  }

@@ -1,0 +1,81 @@
+.body2-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Enables wrapping for better responsiveness */
+  padding: 20px;
+  background-color: #FFF5E8;
+  gap: 20px;
+  overflow: hidden;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.motto-container {
+  flex: 1;
+  min-width: 250px;
+  max-width: 400px;
+  font-family: Apparat;
+  background-image: url("../assets/images/circle.png");
+  background-size: contain; /* Ensures full visibility */
+  background-position: top center; /* Moves it fully into view */
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px; /* Adds some spacing to prevent cutoff */
+}
+
+.motto {
+  width: 80%;
+  max-width: 300px;
+  padding: 20px;
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  color: #AB4F2E;
+  margin: 0 auto;
+  line-height: 1.4;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows images to stack on smaller screens */
+  gap: 20px;
+  flex: 1;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.image-item {
+  text-align: center;
+  flex: 1;
+  max-width: 180px;
+  min-width: 120px;
+}
+
+.image {
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+}
+
+.caption-header {
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  font-family: ApparatExtrabold;
+  color: #4D000A;
+}
+
+.caption-body {
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+  color: #AB4F2E;
+  margin-top: 4px;
+}
+
+.line-break {
+  display: block;
+}

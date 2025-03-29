@@ -1,0 +1,72 @@
+  /* Orange Top Bar */
+  .top-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background-color:  #F6BA59;
+    z-index: 1000;
+  }
+
+  /* Main Header */ 
+  .header {
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 5px; /* Ensure the header starts below the orange bar */
+    left: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF5E8;
+    padding: 16px 24px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+
+  /* Left Section: Logo & Company Name */
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    height: 40px; /* Adjust logo size */
+    margin-right: 10px; /* Moves the company name 10px to the right */
+  }
+
+  .company-name {
+    height: 20px; /* Adjust to match logo height */
+  }
+
+  /* Right Section: Button */
+  .header-button {
+    width: 125px;
+    height: 25px;
+    background-color: #FFF5E8;
+    border: 2px solid #AB4F2E;
+    color: #AB4F2E;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Apparat;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    
+    /* Center text without resizing */
+    display: flex;
+    align-items: center; /* Centers text vertically */
+    justify-content: center; /* Centers text horizontally */
+    line-height: 1; /* Prevents extra spacing */
+}
+
+  
+  .header-button:hover {
+    background-color: #F6BA59; /* Darken the button background when hovered */
+    border: 2px solid #4D000A;
+    color: #4D000A; /* Change text color to white on hover */
+
+
+  }

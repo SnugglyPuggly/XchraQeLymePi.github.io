@@ -1,0 +1,48 @@
+.Navbar {
+  height: 40px;
+  background-color: rgb(255, 255, 255); 
+  color: black;
+  font-size: 18px;
+  width: 100%; /* Ensure navbar spans the full width */
+  display: flex;
+  justify-content: space-around; /* Distributes navbar items horizontally */
+  align-items: center; /* Centers navbar items vertically */
+  padding: 0; /* Remove padding to make the navbar touch the header */
+  z-index: 2;
+  }
+  
+  .Navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Navbar li {
+    margin: 0 15px;
+  }
+  
+  .Navbar a {
+    color: #888; /* Light grey text color */
+    text-decoration: none;
+    padding: 8px 12px; /* Add padding for better clickability */
+    border-radius: 4px; /* Optional: Add rounded corners */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .Navbar a:hover {
+    color: #555; /* Darker grey text color on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }
+
+  .left-nav {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+  }
+  
+  .right-nav {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+  }
+  

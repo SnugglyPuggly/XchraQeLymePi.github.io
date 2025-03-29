@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Apparat';
+  src: url('../assets/fonts/Apparat.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApparatExtrabold';
+  src: url('../assets/fonts/ApparatExtrabold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApparatMedium';
+  src: url('../assets/fonts/ApparatMedium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApparatRegular';
+  src: url('../assets/fonts/ApparatRegular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Reset default margin & padding */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Apparat;
+  overflow-x: hidden;
+}
+
+/* Ensure App container can handle horizontal scroll while maintaining structure */
+.App {
+  width: 100%; /* Changed from min-width: 100vw */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden; /* Add this to contain children */  
+}
