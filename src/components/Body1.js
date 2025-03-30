@@ -7,12 +7,10 @@ const Body1 = () => {
     <div className="body1-container">
       {/* Left Side - Header Content */}
       <div className="body1-left">
-        <h1 className="header-title">Ethan Butcher</h1>
+        <h1 className="header-title">Save the Bite</h1>
         <h1 className="header-text header-text-bold">
-          blah blah balh
         </h1>
         <h1 className="header-text">
-          blah blah blah
         </h1>
         <img src={squiggle} alt="Decorative squiggle" className="squiggle" />
       </div>

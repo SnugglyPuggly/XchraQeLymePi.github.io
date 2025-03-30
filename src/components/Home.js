@@ -8,8 +8,6 @@ import Body2 from './Body2';
 
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
-//bababababa
-//balalalala
 function Home() {
   return (
     <div className="App">
