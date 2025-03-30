@@ -1,6 +1,6 @@
 import "../styles/Preorder.css";
 import React, { useState } from "react";
-
+import {Link} from "react-router-dom";
 function Preorder() {
   const [isDetailsVisible, setIsDetailsVisible] = useState(false);
   function toggleDetailsVisibility() {
@@ -38,7 +38,9 @@ function Preorder() {
       </p>
 
       <div className="preorder-tab">
-        <button className="preorder-btn">Preorder Now</button>
+        <button className="preorder-btn">
+          <li><Link to="/confirmation">Confirm Your Order</Link></li>
+        </button>
       </div>
     </div>
   );
