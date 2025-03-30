@@ -1,0 +1,98 @@
+
+.preorder-tab {
+    background-color: #f9f9f9;
+    border-radius: 5%;
+    padding: 3%;
+    box-shadow: 0 0.5% 1% rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif !important;
+    color: #739c6d !important;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.preorder-tab h2 {
+    font-size: 2rem; /* Scales well on different screens */
+    font-weight: bold;
+    color: #51834a !important;
+    margin-bottom: 2%;
+}
+
+.preorder-tab p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #8ba755 !important;
+}
+
+.preorder-tab .btn {
+    display: inline-block;
+    background-color: #588859;
+    color: white;
+    padding: 2% 3%;
+    border-radius: 5%;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-size: 1rem;
+}
+
+.preorder-tab .btn:hover {
+    background-color: #808234;
+}
+
+.preorder-tab ul {
+    padding-left: 5%;
+    list-style-type: disc;
+}
+
+.preorder-tab ul li {
+    margin-bottom: 2%;
+    color: #6a9558 !important;
+    font-size: 1rem;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.preorder-btn {
+    background-color: #638864;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;  
+  }
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #638864;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;  
+  }
+  
+  /* Style the dropdown container */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(104, 207, 119, 0.2);
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Optional styles for the hidden text */
+  .dropdown-content p {
+    padding: 10px;
+    text-align: center;
+  }
+  

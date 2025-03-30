@@ -1,54 +1,46 @@
 import "../styles/Preorder.css";
 import React, { useState } from "react";
-import { Button, Card, Input } from "@mui/material"; // Replace with the actual library providing these components
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@radix-ui/react-select"; // Replace with the actual library providing these components
-import { Link, Route, BrowserRouter as Router, Routes, useNavigate } from "react-router-dom";
-import { useLocation } from "react-router-dom";
 
 function Preorder() {
-  const [name, setName] = useState("");
-  const [id, setID] = useState("");
-  const [lunch, setLunch] = useState("chicken");
-  const navigate = useNavigate();
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    navigate("/confirmation", { state: { name, id, lunch } });
-  };
+  const [isDetailsVisible, setIsDetailsVisible] = useState(false);
+  function toggleDetailsVisibility() {
+    setIsDetailsVisible(prevState => !prevState);
+  }
 
   return (
-    <Card className="preorder-tab">
-      <h2>Preorder Form</h2>
-      <form onSubmit={handleSubmit}>
-        <Input placeholder="Your Name" value={name} onChange={(e) => setName(e.target.value)} required />
-        <Input placeholder="Your Student ID" type="text" value={id} onChange={(e) => setID(e.target.value)} required />
-        <Select onValueChange={(value) => setLunch(value)}>
-          <SelectTrigger>
-            <SelectValue placeholder="Select your lunch" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="chicken">Chicken</SelectItem>
-            <SelectItem value="beef">Beef</SelectItem>
-            <SelectItem value="vegan">Vegan</SelectItem>
-          </SelectContent>
-        </Select>
-        <Button type="submit" className="dropbtn">Place Preorder</Button>
-      </form>
-    </Card>
-  );
-}
+    <div className="preorder-tab">
+      <h2>Preorder Your Lunch!</h2>
 
-function Confirmation() {
-  const location = useLocation();
-  const navigate = useNavigate();
-  const state = location.state || {};
+      <p>
+        Don't forget to preorder your lunch! Click below to see the menu for today.
+      </p>
 
-  return (
-    <Card className="preorder-tab h2">
-      <h2>Preorder Confirmed!</h2>
-      <p>Thank you, {state.name || "Student"}, for preordering and reducing food waste!</p>
-      <Button onClick={() => navigate("/")} className="dropbtn">Go Home</Button>
-    </Card>
+      <div className="dropdown">
+        <button className="dropbtn" onClick={toggleDetailsVisibility}>
+          Lunch Menu
+        </button>
+        {isDetailsVisible && (
+          <div className="dropdown-content">
+            <ul>
+              <li><strong>Chicken Alfredo</strong></li>
+              <li><strong>Tomato Soup:</strong> Vegan</li>
+              <li><strong>Caesar Salad:</strong> Vegetarian</li>
+              <li><strong>Beverage:</strong> the beverages we have today are orange juice, apple juice, and chocolate milk.</li>
+            </ul>
+          </div>
+        )}
+      </div>
+
+      <h3>How You Are Helping by Preordering</h3>
+      <p>
+        By preordering, you are cutting down on the food waste produced at your school!
+        Order only what you will eat so as little as possible goes to waste.
+      </p>
+
+      <div className="preorder-tab">
+        <button className="preorder-btn">Preorder Now</button>
+      </div>
+    </div>
   );
 }
 
