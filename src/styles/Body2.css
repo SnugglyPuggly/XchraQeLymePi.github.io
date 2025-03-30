@@ -31,7 +31,7 @@
   max-width: 300px;
   padding: 20px;
   font-size: clamp(1.2rem, 2vw, 1.6rem);
-  color: #AB4F2E;
+  color: #42752c;
   margin: 0 auto;
   line-height: 1.4;
 }
@@ -66,12 +66,12 @@
 .caption-header {
   font-size: clamp(1rem, 1.5vw, 1.2rem);
   font-family: ApparatExtrabold;
-  color: #4D000A;
+  color: #665e26;
 }
 
 .caption-body {
   font-size: clamp(0.875rem, 1.5vw, 1rem);
-  color: #AB4F2E;
+  color: #6d9530;
   margin-top: 4px;
 }
 

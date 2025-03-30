@@ -6,7 +6,7 @@
     padding: 3%;
     box-shadow: 0 0.5% 1% rgba(0, 0, 0, 0.1);
     font-family: 'Poppins', sans-serif !important;
-    color: #d35400 !important;
+    color: #578e62 !important;
     margin-top: 3%;
     margin-right: 3%;
 }
@@ -14,19 +14,19 @@
 .charity-tab h2 {
     font-size: 2rem; /* Scales well on different screens */
     font-weight: bold;
-    color: #d35400 !important;
+    color: #7aa23a !important;
     margin-bottom: 2%;
 }
 
 .charity-tab p {
     font-size: 1.2rem;
     line-height: 1.5;
-    color: #d35400 !important;
+    color: #356446 !important;
 }
 
 .charity-tab .btn {
     display: inline-block;
-    background-color: #d35400;
+    background-color: #56802c;
     color: white;
     padding: 2% 3%;
     border-radius: 50px; /* Slightly more rounded */
@@ -37,7 +37,7 @@
 }
 
 .charity-tab .btn:hover {
-    background-color: #a04000;
+    background-color: #7d7f29;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
     transform: translateY(-2px); /* Slight movement for interactivity */
 }
@@ -49,7 +49,7 @@
 
 .charity-tab ul li {
     margin-bottom: 2%;
-    color: #d35400 !important;
+    color: #395931 !important;
     font-size: 1rem;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .error-message {
-    color: red;
+    color: rgb(114, 112, 40);
     font-weight: bold;
     margin-top: 2%;
 }
@@ -82,7 +82,7 @@
 }
 
 .charity-list a {
-    color: #0077cc;
+    color: #7d7337;
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -90,5 +90,5 @@
 
 .charity-list a:hover {
     text-decoration: underline;
-    color: #005fa3; /* Slightly darker on hover */
+    color: #62563b; /* Slightly darker on hover */
 }

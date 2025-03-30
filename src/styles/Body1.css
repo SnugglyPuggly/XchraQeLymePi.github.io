@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 100vw;
   min-height: 700px; /* Prevents overflow issues */
-  background-color: #ab4f2e;
+  background-color: #5b9c73;
   background-image: url("../assets/images/body1.png");
   background-size: cover;
   background-position: top center; /* Prevents background from cutting off */

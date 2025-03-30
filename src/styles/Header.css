@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     height: 5px;
-    background-color:  #F6BA59;
+    background-color:  #b8d75b;
     z-index: 1000;
   }
 
@@ -45,8 +45,8 @@
     width: 125px;
     height: 25px;
     background-color: #FFF5E8;
-    border: 2px solid #AB4F2E;
-    color: #AB4F2E;
+    border: 2px solid #51894d;
+    color: #a1a54a;
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
@@ -64,9 +64,9 @@
 
   
   .header-button:hover {
-    background-color: #F6BA59; /* Darken the button background when hovered */
-    border: 2px solid #4D000A;
-    color: #4D000A; /* Change text color to white on hover */
+    background-color: #abac67; /* Darken the button background when hovered */
+    border: 2px solid #386832;
+    color: #709b49; /* Change text color to white on hover */
 
 
   }

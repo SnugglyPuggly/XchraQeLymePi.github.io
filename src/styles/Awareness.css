@@ -6,7 +6,7 @@
     padding: 3%;
     box-shadow: 0 0.5% 1% rgba(0, 0, 0, 0.1);
     font-family: 'Poppins', sans-serif !important;
-    color: #78bf6d !important;
+    color: #739c6d !important;
     margin-top: 3%;
     margin-right: 3%;
 }
@@ -26,7 +26,7 @@
 
 .awareness-tab .btn {
     display: inline-block;
-    background-color: #65a166;
+    background-color: #588859;
     color: white;
     padding: 2% 3%;
     border-radius: 5%;
