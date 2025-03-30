@@ -6,7 +6,7 @@
     padding: 3%;
     box-shadow: 0 0.5% 1% rgba(0, 0, 0, 0.1);
     font-family: 'Poppins', sans-serif !important;
-    color: #d35400 !important;
+    color: #78bf6d !important;
     margin-top: 3%;
     margin-right: 3%;
 }
@@ -14,19 +14,19 @@
 .awareness-tab h2 {
     font-size: 2rem; /* Scales well on different screens */
     font-weight: bold;
-    color: #d35400 !important;
+    color: #51834a !important;
     margin-bottom: 2%;
 }
 
 .awareness-tab p {
     font-size: 1.2rem;
     line-height: 1.5;
-    color: #d35400 !important;
+    color: #8ba755 !important;
 }
 
 .awareness-tab .btn {
     display: inline-block;
-    background-color: #d35400;
+    background-color: #65a166;
     color: white;
     padding: 2% 3%;
     border-radius: 5%;
@@ -36,7 +36,7 @@
 }
 
 .awareness-tab .btn:hover {
-    background-color: #a04000;
+    background-color: #808234;
 }
 
 .awareness-tab ul {
@@ -46,7 +46,7 @@
 
 .awareness-tab ul li {
     margin-bottom: 2%;
-    color: #d35400 !important;
+    color: #6a9558 !important;
     font-size: 1rem;
 }
 
@@ -61,3 +61,35 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #638864;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the dropdown container */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(104, 207, 119, 0.2);
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Optional styles for the hidden text */
+  .dropdown-content p {
+    padding: 10px;
+    text-align: center;
+  }
+  
