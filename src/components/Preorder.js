@@ -12,7 +12,8 @@ function Preorder() {
       <h2>Preorder Your Lunch!</h2>
 
       <p>
-        Don't forget to preorder your lunch! Click below to see the menu for today.
+        Don't forget to preorder your lunch! By preordering, you are cutting down on the food waste produced at your school!
+        Order only what you will eat so as little as possible goes to waste. Click below to see the menu for today.
       </p>
 
       <div className="dropdown">
@@ -31,16 +32,11 @@ function Preorder() {
         )}
       </div>
 
-      <h3>How You Are Helping by Preordering</h3>
-      <p>
-        By preordering, you are cutting down on the food waste produced at your school!
-        Order only what you will eat so as little as possible goes to waste.
-      </p>
 
       <div className="preorder-tab">
-        <button className="preorder-btn">
-          <li><Link to="/confirmation">Confirm Your Order</Link></li>
-        </button>
+        <p>Thank you, Student, for preordering and reducing food waste!</p>
+        <p>We will send a confirmation email to your school email if you wish to cancel.</p>
+        <p>We will send updates to your school email if availability changes.</p>
       </div>
     </div>
   );
