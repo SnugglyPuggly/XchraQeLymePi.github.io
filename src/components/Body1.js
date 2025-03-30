@@ -18,6 +18,7 @@ const Body1 = () => {
       </div>
       {/* Right Side - Subscription Form */}
       <div className="body1-right">
+        
       </div>
     </div>
   );

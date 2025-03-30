@@ -1,29 +1,21 @@
 import React from 'react';
-import Header from './components/Header'; 
-import Navbar from './components/Navbar'; 
-import Footer from './components/Footer'; 
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './components/Home';
+import About from './components/AboutUs';
+import Header from './components/Header';
 import './styles/App.css';
-import Body1 from './components/Body1';
-import Body2 from './components/Body2';
 
-//bababababa
-//balalalala
 function App() {
   return (
     <div className="App">
-      <div className="header-navbar-container">
-        <Header />
-      </div>  
-
-      <main className="main-content">
-        <Body1 />
-        <Body2 /> 
-        
-        
-
-
-        <Footer />
-      </main>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
