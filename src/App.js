@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Awareness from './components/Awareness';
 import Header from './components/Header';
 import Preorder from './components/Preorder';
-import Connect from './components/Connect';
+import Connect from './components/Charity';
 import './styles/App.css';
 
 function App() {

@@ -9,7 +9,7 @@ function Navbar() {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/awareness">Awareness</Link></li>
         <li><Link to="/lunch-preorder">Lunch Pre-Order</Link></li>
-        <li><Link to="/connect-with-nonprofits">organizations one</Link></li>
+        <li><Link to="/connect-with-nonprofits">Connect with Charities</Link></li>
       </ul>
       <ul className="right-nav">
         
