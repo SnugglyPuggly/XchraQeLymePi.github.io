@@ -1,6 +1,6 @@
 import React from 'react';
 
-function About() {
+function Preorder() {
   return (
     <div>
       <h1>falla Us</h1>
@@ -8,4 +8,4 @@ function About() {
   );
 }
 
-export default About;
+export default Preorder;

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.awareness-tab {
+    background-color: #f9f9f9;
+    border-radius: 5%;
+    padding: 3%;
+    box-shadow: 0 0.5% 1% rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif !important;
+    color: #d35400 !important;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.awareness-tab h2 {
+    font-size: 2rem; /* Scales well on different screens */
+    font-weight: bold;
+    color: #d35400 !important;
+    margin-bottom: 2%;
+}
+
+.awareness-tab p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #d35400 !important;
+}
+
+.awareness-tab .btn {
+    display: inline-block;
+    background-color: #d35400;
+    color: white;
+    padding: 2% 3%;
+    border-radius: 5%;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-size: 1rem;
+}
+
+.awareness-tab .btn:hover {
+    background-color: #a04000;
+}
+
+.awareness-tab ul {
+    padding-left: 5%;
+    list-style-type: disc;
+}
+
+.awareness-tab ul li {
+    margin-bottom: 2%;
+    color: #d35400 !important;
+    font-size: 1rem;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.food-waste-image {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
