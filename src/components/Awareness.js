@@ -39,9 +39,9 @@ function Awareness() {
 
       <h3>Impact of Food Waste</h3>
       <p>
-        Wasting food affects more than just the trash bins—it has serious <b>environmental and economic</b> 
+        Wasting food affects more than just the trash bins—it has serious <b>environmental and economic </b> 
         consequences. Every year, <b>millions of tons of food</b> end up in landfills, contributing to 
-        greenhouse gas emissions. Additionally, food waste costs schools <b>thousands of dollars</b>
+        greenhouse gas emissions. Additionally, food waste costs schools <b>thousands of dollars </b>
         that could be spent on better resources for students.
       </p>
 
