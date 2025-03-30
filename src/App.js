@@ -3,8 +3,10 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import About from './components/AboutUs';
+import Awareness from './components/Awareness';
 import Header from './components/Header';
+import Preorder from './components/Preorder';
+import Connect from './components/Connect';
 import './styles/App.css';
 
 function App() {
@@ -13,7 +15,9 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/awareness" element={<Awareness />} />
+        <Route path="/lunch-preorder" element={<Preorder />} />
+        <Route path="/connect-with-nonprofits" element={<Connect />} />
       </Routes>
       <Footer />
     </div>
